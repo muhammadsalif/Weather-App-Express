@@ -1,0 +1,15 @@
+{
+  "name": "weather-app-expressjs",
+  "version": "1.0.0",
+  "description": "Simple weather app using client ZIP code and public weather API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "init"
+  },
+  "author": "",
+  "license": "ISC"
+}
