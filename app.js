@@ -12,9 +12,10 @@ var ownKey = "2617c465639f83ad21809927b4a2d0d3"
 weather.setAPPID(ownKey);
 
 app.get(/^\/(\zipcode)\/(\d{5})$/, (req, res) => {
+    // console.log(req);
     weather.setZipCode(req.params[1]);
     weather.getAllWeather(function (err, JSONObj) {
-        console.log(JSONObj);
+        // console.log(JSONObj);
         res.send(JSONObj)
     });
 })
